@@ -1,0 +1,17 @@
+platform :ios,'7.0'
+
+inhibit_all_warnings!
+
+pod 'MBProgressHUD'
+pod 'ReactiveCocoa'
+pod 'AFNetworking'
+pod 'Reachability'
+pod 'MagicalRecord'
+pod 'SDWebImage'
+pod 'Masonry'
+pod 'JSONModel'
+pod 'MJRefresh'
+
+#target : YOUR_TEST_TARGET, :exclusive => true do
+#pod 'Kiwi'
+#end

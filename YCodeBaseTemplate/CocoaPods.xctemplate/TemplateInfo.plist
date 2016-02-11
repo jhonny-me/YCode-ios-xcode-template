@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.ycode.template.project.CocoaPods</string>
+	<key>Name</key>
+	<string>CocoaPods</string>
+	<key>Ancestors</key>
+	<array/>
+	<key>Definitions</key>
+	<dict>
+		<key>../podfile</key>
+		<dict>
+			<key>Path</key>
+			<string>podfile</string>
+			<key>Group</key>
+			<string>Supporting Files</string>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>CocoaPods project template.</string>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Nodes</key>
+	<array>
+		<string>../podfile</string>
+	</array>
+	<key>Options</key>
+	<array/>
+	<key>SortOrder</key>
+	<integer>1</integer>
+</dict>
+</plist>
