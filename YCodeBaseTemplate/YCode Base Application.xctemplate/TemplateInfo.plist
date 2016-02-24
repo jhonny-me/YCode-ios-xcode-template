@@ -28,6 +28,8 @@
 		<string>General/Classes/.gitkeep</string>
 		<string>General/Categories/UIViewController+HUD.m</string>
 		<string>General/Categories/UIViewController+HUD.h</string>
+		<string>General/Categories/UIViewController+YCBadResponseView.h</string>
+		<string>General/Categories/UIViewController+YCBadResponseView.m</string>
 		<string>AppDelegate/.gitkeep</string>
 		<string>Models/.gitkeep</string>
 		<string>Marcos/YCDEFINE.h</string>
@@ -155,6 +157,26 @@
 		<dict>
 			<key>Path</key>
 			<string>./General/Categories/UIViewController+HUD.h</string>
+			<key>Group</key>
+			<array>
+				<string>General</string>
+				<string>Categories</string>
+			</array>
+		</dict>
+		<key>General/Categories/UIViewController+YCBadResponseView.h</key>
+		<dict>
+			<key>Path</key>
+			<string>./General/Categories/UIViewController+YCBadResponseView.h</string>
+			<key>Group</key>
+			<array>
+				<string>General</string>
+				<string>Categories</string>
+			</array>
+		</dict>
+		<key>General/Categories/UIViewController+YCBadResponseView.m</key>
+		<dict>
+			<key>Path</key>
+			<string>./General/Categories/UIViewController+YCBadResponseView.m</string>
 			<key>Group</key>
 			<array>
 				<string>General</string>
