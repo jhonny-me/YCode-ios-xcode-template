@@ -20,6 +20,10 @@
 	<integer>1</integer>
 	<key>Nodes</key>
 	<array>
+		<string>General/Views/YCPageControl.h</string>
+		<string>General/Views/YCPageControl.m</string>
+		<string>General/Views/YCBannerScrollView.h</string>
+		<string>General/Views/YCBannerScrollView.m</string>
 		<string>Helpers/YCAPIHelper.h</string>
 		<string>Helpers/YCAPIHelper.m</string>
 		<string>../.gitignore</string>
@@ -80,6 +84,46 @@
 	</array>
 	<key>Definitions</key>
 	<dict>
+		<key>General/Views/YCBannerScrollView.h</key>
+		<dict>
+			<key>Path</key>
+			<string>General/Categories/UIViewController+YCBadResponseView.h</string>
+			<key>Group</key>
+			<array>
+				<string>General</string>
+				<string>Views</string>
+			</array>
+		</dict>
+		<key>General/Views/YCBannerScrollView.m</key>
+		<dict>
+			<key>Path</key>
+			<string>General/Categories/UIViewController+YCBadResponseView.m</string>
+			<key>Group</key>
+			<array>
+				<string>General</string>
+				<string>Views</string>
+			</array>
+		</dict>
+		<key>General/Views/YCPageControl.h</key>
+		<dict>
+			<key>Path</key>
+			<string>General/Categories/YCPageControl.h</string>
+			<key>Group</key>
+			<array>
+				<string>General</string>
+				<string>Views</string>
+			</array>
+		</dict>
+		<key>General/Views/YCPageControl.m</key>
+		<dict>
+			<key>Path</key>
+			<string>General/Categories/YCPageControl.m</string>
+			<key>Group</key>
+			<array>
+				<string>General</string>
+				<string>Views</string>
+			</array>
+		</dict>
 		<key>../.gitignore</key>
 		<dict>
 			<key>Path</key>
@@ -181,26 +225,6 @@
 			<array>
 				<string>General</string>
 				<string>Categories</string>
-			</array>
-		</dict>
-		<key>General/Classes/.gitkeep</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>General</string>
-				<string>Classes</string>
-			</array>
-			<key>Path</key>
-			<string>gitkeep</string>
-		</dict>
-		<key>General/Views/.gitkeep</key>
-		<dict>
-			<key>Path</key>
-			<string>gitkeep</string>
-			<key>Group</key>
-			<array>
-				<string>General</string>
-				<string>Views</string>
 			</array>
 		</dict>
 		<key>General/ReadMe.h</key>
