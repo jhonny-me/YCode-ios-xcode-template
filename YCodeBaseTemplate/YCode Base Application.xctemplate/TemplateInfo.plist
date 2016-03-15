@@ -87,7 +87,7 @@
 		<key>General/Views/YCBannerScrollView.h</key>
 		<dict>
 			<key>Path</key>
-			<string>General/Categories/UIViewController+YCBadResponseView.h</string>
+			<string>./General/Views/YCBannerScrollView.h</string>
 			<key>Group</key>
 			<array>
 				<string>General</string>
@@ -97,7 +97,7 @@
 		<key>General/Views/YCBannerScrollView.m</key>
 		<dict>
 			<key>Path</key>
-			<string>General/Categories/UIViewController+YCBadResponseView.m</string>
+			<string>./General/Views/YCBannerScrollView.m</string>
 			<key>Group</key>
 			<array>
 				<string>General</string>
@@ -107,7 +107,7 @@
 		<key>General/Views/YCPageControl.h</key>
 		<dict>
 			<key>Path</key>
-			<string>General/Categories/YCPageControl.h</string>
+			<string>./General/Views/YCPageControl.h</string>
 			<key>Group</key>
 			<array>
 				<string>General</string>
@@ -117,7 +117,7 @@
 		<key>General/Views/YCPageControl.m</key>
 		<dict>
 			<key>Path</key>
-			<string>General/Categories/YCPageControl.m</string>
+			<string>./General/Views/YCPageControl.m</string>
 			<key>Group</key>
 			<array>
 				<string>General</string>
