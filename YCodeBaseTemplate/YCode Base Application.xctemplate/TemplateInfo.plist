@@ -20,6 +20,8 @@
 	<integer>1</integer>
 	<key>Nodes</key>
 	<array>
+		<string>General/Categories/UIResponder+Router.h</string>
+		<string>General/Categories/UIResponder+Router.m</string>
 		<string>General/Views/YCPageControl.h</string>
 		<string>General/Views/YCPageControl.m</string>
 		<string>General/Views/YCBannerScrollView.h</string>
@@ -84,6 +86,26 @@
 	</array>
 	<key>Definitions</key>
 	<dict>
+		<key>General/Categories/UIViewController+HUD.m - 2</key>
+		<dict>
+			<key>Path</key>
+			<string>./General/Categories/UIResponder+Router.h</string>
+			<key>Group</key>
+			<array>
+				<string>General</string>
+				<string>Categories</string>
+			</array>
+		</dict>
+		<key>General/Categories/UIViewController+HUD.m - 3</key>
+		<dict>
+			<key>Path</key>
+			<string>./General/Categories/UIResponder+Router.m</string>
+			<key>Group</key>
+			<array>
+				<string>General</string>
+				<string>Categories</string>
+			</array>
+		</dict>
 		<key>General/Views/YCBannerScrollView.h</key>
 		<dict>
 			<key>Path</key>
