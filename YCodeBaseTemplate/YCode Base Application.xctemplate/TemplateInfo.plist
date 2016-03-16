@@ -86,7 +86,7 @@
 	</array>
 	<key>Definitions</key>
 	<dict>
-		<key>General/Categories/UIViewController+HUD.m - 2</key>
+		<key>General/Categories/UIResponder+Router.h</key>
 		<dict>
 			<key>Path</key>
 			<string>./General/Categories/UIResponder+Router.h</string>
@@ -96,7 +96,7 @@
 				<string>Categories</string>
 			</array>
 		</dict>
-		<key>General/Categories/UIViewController+HUD.m - 3</key>
+		<key>General/Categories/UIResponder+Router.m</key>
 		<dict>
 			<key>Path</key>
 			<string>./General/Categories/UIResponder+Router.m</string>
