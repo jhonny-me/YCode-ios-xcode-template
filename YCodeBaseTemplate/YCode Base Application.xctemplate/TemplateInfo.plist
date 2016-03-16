@@ -92,17 +92,17 @@
 	<dict>
 		<key>Vendors/YYFPSLabel.h</key>
 		<dict>
-			<key>Group</key>
-			<string>./Vendors</string>
 			<key>Path</key>
-			<string>YYFPSLabel.h</string>
+			<string>Vendors/YYFPSLabel.h</string>
+			<key>Group</key>
+			<string>Vendors</string>
 		</dict>
 		<key>Vendors/YYFPSLabel.m</key>
 		<dict>
-			<key>Group</key>
-			<string>./Vendors</string>
 			<key>Path</key>
-			<string>YYFPSLabel.m</string>
+			<string>Vendors/YYFPSLabel.m</string>
+			<key>Group</key>
+			<string>Vendors</string>
 		</dict>
 		<key>Utils/YCUtils.h</key>
 		<dict>
