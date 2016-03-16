@@ -22,10 +22,9 @@
 /**
  *  YCBannerScrollView依赖SDWebImage
  */
-@interface YCBannerScrollView : UIView <UIScrollViewDelegate>{
+@interface YCBannerScrollView : UIView <UIScrollViewDelegate>
     
-    NSInteger _lastIndex;
-}
+@property (assign, nonatomic) NSInteger lastIndex;
 
 /**
  *  代理

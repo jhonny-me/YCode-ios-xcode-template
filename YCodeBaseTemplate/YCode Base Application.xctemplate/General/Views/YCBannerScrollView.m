@@ -10,11 +10,10 @@
 #import "YCPageControl.h"
 #import "UIImageView+WebCache.h"
 
-@interface YCBannerScrollView () {
+@interface YCBannerScrollView ()
 
-    UIScrollView  *_bannerScrollView;
-    YCPageControl *_pageControl;
-}
+@property (strong, nonatomic) UIScrollView  *bannerScrollView;
+@property (strong, nonatomic) YCPageControl *pageControl;
 
 @end
 
@@ -58,7 +57,7 @@
 - (void)setAutoScroll:(BOOL)autoScroll{
     
     _autoScroll = autoScroll;
-    if (_autoScroll == YES) {
+    if (_autoScroll) {
         
         [self createTimer];
     }

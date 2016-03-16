@@ -20,6 +20,10 @@
 	<integer>1</integer>
 	<key>Nodes</key>
 	<array>
+		<string>Vendors/YYFPSLabel.h</string>
+		<string>Vendors/YYFPSLabel.m</string>
+		<string>Utils/YCUtils.h</string>
+		<string>Utils/YCUtils.m</string>
 		<string>General/Categories/UIResponder+Router.h</string>
 		<string>General/Categories/UIResponder+Router.m</string>
 		<string>General/Views/YCPageControl.h</string>
@@ -86,7 +90,35 @@
 	</array>
 	<key>Definitions</key>
 	<dict>
-		<key>General/Categories/UIViewController+HUD.m - 2</key>
+		<key>Vendors/YYFPSLabel.h</key>
+		<dict>
+			<key>Group</key>
+			<string>./Vendors</string>
+			<key>Path</key>
+			<string>YYFPSLabel.h</string>
+		</dict>
+		<key>Vendors/YYFPSLabel.m</key>
+		<dict>
+			<key>Group</key>
+			<string>./Vendors</string>
+			<key>Path</key>
+			<string>YYFPSLabel.m</string>
+		</dict>
+		<key>Utils/YCUtils.h</key>
+		<dict>
+			<key>Group</key>
+			<string>./Utils</string>
+			<key>Path</key>
+			<string>YCUtils.h</string>
+		</dict>
+		<key>Utils/YCUtils.m</key>
+		<dict>
+			<key>Group</key>
+			<string>./Utils</string>
+			<key>Path</key>
+			<string>YCUtils.m</string>
+		</dict>
+		<key>General/Categories/UIResponder+Router.h</key>
 		<dict>
 			<key>Path</key>
 			<string>./General/Categories/UIResponder+Router.h</string>
@@ -96,7 +128,7 @@
 				<string>Categories</string>
 			</array>
 		</dict>
-		<key>General/Categories/UIViewController+HUD.m - 3</key>
+		<key>General/Categories/UIResponder+Router.m</key>
 		<dict>
 			<key>Path</key>
 			<string>./General/Categories/UIResponder+Router.m</string>
