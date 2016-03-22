@@ -107,14 +107,14 @@
 		<key>Utils/YCUtils.h</key>
 		<dict>
 			<key>Group</key>
-			<string>./Utils</string>
+			<string>Utils</string>
 			<key>Path</key>
 			<string>YCUtils.h</string>
 		</dict>
 		<key>Utils/YCUtils.m</key>
 		<dict>
 			<key>Group</key>
-			<string>./Utils</string>
+			<string>Utils</string>
 			<key>Path</key>
 			<string>YCUtils.m</string>
 		</dict>
