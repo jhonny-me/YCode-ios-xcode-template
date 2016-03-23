@@ -20,6 +20,8 @@
 	<integer>1</integer>
 	<key>Nodes</key>
 	<array>
+		<string>General/Categories/NSTimer+Convenience.h</string>
+		<string>General/Categories/NSTimer+Convenience.m</string>
 		<string>Vendors/YYFPSLabel.h</string>
 		<string>Vendors/YYFPSLabel.m</string>
 		<string>Utils/YCUtils.h</string>
@@ -90,6 +92,26 @@
 	</array>
 	<key>Definitions</key>
 	<dict>
+		<key>General/Categories/NSTimer+Convenience.h</key>
+		<dict>
+			<key>Path</key>
+			<string>./General/Categories/NSTimer+Convenience.h</string>
+			<key>Group</key>
+			<array>
+				<string>General</string>
+				<string>Categories</string>
+			</array>
+		</dict>
+		<key>General/Categories/NSTimer+Convenience.m</key>
+		<dict>
+			<key>Path</key>
+			<string>./General/Categories/NSTimer+Convenience.m</string>
+			<key>Group</key>
+			<array>
+				<string>General</string>
+				<string>Categories</string>
+			</array>
+		</dict>
 		<key>Vendors/YYFPSLabel.h</key>
 		<dict>
 			<key>Path</key>
