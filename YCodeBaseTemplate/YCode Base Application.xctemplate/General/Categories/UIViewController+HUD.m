@@ -54,9 +54,11 @@
         
         [self presentViewController:alert animated:YES completion:nil];
     }else{
-        
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
         UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:nil message:hint delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil];
         [alertView show];
+#pragma clang diagnostic pop
     }
 }
 @end
