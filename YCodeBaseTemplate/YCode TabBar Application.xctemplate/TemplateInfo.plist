@@ -78,7 +78,7 @@
 			<key>SortOrder</key>
 			<integer>99</integer>
 		</dict>
-		<key>*:implementation:methods:application:didFinishLaunchingWithOptions:</key>
+		<key>*:implementation:methods:application:didFinishLaunchingWithOptions</key>
 		<string>_window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     _window.backgroundColor = [UIColor whiteColor];
     YCTabBarController *tabBarController = [YCTabBarController new];
