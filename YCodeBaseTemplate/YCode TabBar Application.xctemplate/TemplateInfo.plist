@@ -41,7 +41,17 @@
 						<string>ViewController.m:implementation:methods:viewDidLoad:super</string>
 						<string>ViewController.m:implementation:methods:didReceiveMemoryWarning(- (void\)didReceiveMemoryWarning)</string>
 						<string>ViewController.m:implementation:methods:didReceiveMemoryWarning:super</string>
+						<string>AppDelegate.m:implementation:methods:applicationdidFinishLaunchingWithOptions:body</string>
 					</array>
+					<key>Definitions</key>
+					<dict>
+						<key>AppDelegate.m:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
+						<string>    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    _window.backgroundColor = [UIColor whiteColor];
+    YCTabBarController *tabBarController = [YCTabBarController new];
+    [_window setRootViewController:tabBarController];
+</string>
+					</dict>
 				</dict>
 				<key>Swift</key>
 				<dict>
@@ -78,11 +88,6 @@
 			<key>SortOrder</key>
 			<integer>99</integer>
 		</dict>
-		<key>*:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
-		<string>_window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    _window.backgroundColor = [UIColor whiteColor];
-    YCTabBarController *tabBarController = [YCTabBarController new];
-    [_window setRootViewController:tabBarController];</string>
 	</dict>
 </dict>
 </plist>
