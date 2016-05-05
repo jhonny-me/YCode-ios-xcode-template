@@ -49,11 +49,11 @@
 					<key>Definitions</key>
 					<dict>
 						<key>AppDelegate.m:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
-						<string>    // Override point for customization after application launch.
-    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    _window.backgroundColor = [UIColor whiteColor];
-    YCTabBarController *tabBarController = [YCTabBarController new];
-    [_window setRootViewController:tabBarController];
+						<string>// Override point for customization after application launch.
+_window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+_window.backgroundColor = [UIColor whiteColor];
+YCTabBarController *tabBarController = [YCTabBarController new];
+[_window setRootViewController:tabBarController];
 
     </string>
 					</dict>
