@@ -3,34 +3,34 @@
 <plist version="1.0">
 <array>
 	<dict>
-		<key>highlightimg</key>
+		<key>highlightImg</key>
 		<string>main_homePage_selected</string>
 		<key>title</key>
 		<string>首页</string>
 		<key>img</key>
 		<string>main_homePage</string>
-		<key>storyboardname</key>
-		<string>HomePage</string>
+		<key>ViewController</key>
+		<string>UIViewController</string>
 	</dict>
 	<dict>
-		<key>highlightimg</key>
+		<key>highlightImg</key>
 		<string>main_fenlei_selected</string>
 		<key>title</key>
 		<string>分类</string>
 		<key>img</key>
 		<string>main_fenlei</string>
-		<key>storyboardname</key>
-		<string>ShopCategeory</string>
+		<key>ViewController</key>
+		<string>UITableViewController</string>
 	</dict>
 	<dict>
-		<key>highlightimg</key>
+		<key>highlightImg</key>
 		<string>main_wode_selected</string>
 		<key>title</key>
 		<string>我的</string>
 		<key>img</key>
 		<string>main_wode</string>
-		<key>storyboardname</key>
-		<string>PersonalCenter</string>
+		<key>ViewController</key>
+		<string>UIViewController</string>
 	</dict>
 </array>
 </plist>
