@@ -66,7 +66,7 @@
 			<key>Group</key>
 			<string>Section</string>
 			<key>Path</key>
-			<string>MainTabBarConfig.plist</string>
+			<string>YCTabBarController/MainTabBarConfig.plist</string>
 		</dict>
 	</dict>
 </dict>
