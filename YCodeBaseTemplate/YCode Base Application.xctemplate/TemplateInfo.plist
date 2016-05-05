@@ -26,6 +26,8 @@
 		<string>Marcos/YCThirdPartKeyConfig.h</string>
 		<string>Marcos/YCURLConfig.h</string>
 		<string>Marcos/YCStyleConfig.h</string>
+		<string>Marcos/YCTipsConfig.h</string>
+		<string>Marcos/YCLogMarco.h</string>
 		<string>General/ReadMe.h</string>
 		<string>General/Categories/NSTimer+Convenience.h</string>
 		<string>General/Categories/NSTimer+Convenience.m</string>
@@ -131,6 +133,20 @@
 			<string>Marcos</string>
 			<key>Path</key>
 			<string>Marcos/YCStyleConfig.h</string>
+		</dict>
+		<key>Marcos/YCTipsConfig.h</key>
+		<dict>
+			<key>Group</key>
+			<string>Marcos</string>
+			<key>Path</key>
+			<string>Marcos/YCTipsConfig.h</string>
+		</dict>
+		<key>Marcos/YCLogMarco.h</key>
+		<dict>
+			<key>Group</key>
+			<string>Marcos</string>
+			<key>Path</key>
+			<string>Marcos/YCLogMarco.h</string>
 		</dict>
 		<key>General/ReadMe.h</key>
 		<dict>
