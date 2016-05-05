@@ -61,6 +61,13 @@
 	</array>
 	<key>Definitions</key>
 	<dict>
+		<key>Base.lproj/Main.storyboard</key>
+		<dict>
+			<key>Path</key>
+			<string>Main.storyboard</string>
+			<key>SortOrder</key>
+			<integer>99</integer>
+		</dict>
 		<key>Sections/MainTabBarConfig.plist</key>
 		<dict>
 			<key>Group</key>
