@@ -5,7 +5,7 @@
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Identifier</key>
-	<string>com.apple.dt.unit.YCodeTabBarApplicationTemplate</string>
+	<string>com.apple.dt.unit.YCodeTestApplicationTemplate</string>
 	<key>Ancestors</key>
 	<array>
 		<string>com.apple.dt.unit.YCodeBaseApplicationTemplate</string>
@@ -13,9 +13,13 @@
 	<key>Concrete</key>
 	<true/>
 	<key>Description</key>
-	<string>This template is YCode&apos;s TabBar application templete.</string>
+	<string>This template is YCode&apos;s test application templete.</string>
 	<key>SortOrder</key>
 	<integer>1</integer>
+	<key>Nodes</key>
+	<array>
+		<string>YCTabBarController/MainTabBarConfig.plist</string>
+	</array>
 	<key>Options</key>
 	<array>
 		<dict>
@@ -55,25 +59,24 @@
 			</dict>
 		</dict>
 	</array>
-	<key>Nodes</key>
-	<array>
-		<string>Sections/MainTabBarConfig.plist</string>
-	</array>
 	<key>Definitions</key>
 	<dict>
+		<key>YCTabBarController/MainTabBarConfig.plist</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Sections</string>
+				<string>YCTabBarController</string>
+			</array>
+			<key>Path</key>
+			<string>YCTabBarController/MainTabBarConfig.plist</string>
+		</dict>
 		<key>Base.lproj/Main.storyboard</key>
 		<dict>
 			<key>Path</key>
 			<string>Main.storyboard</string>
 			<key>SortOrder</key>
 			<integer>99</integer>
-		</dict>
-		<key>Sections/MainTabBarConfig.plist</key>
-		<dict>
-			<key>Group</key>
-			<string>Section</string>
-			<key>Path</key>
-			<string>YCTabBarController/MainTabBarConfig.plist</string>
 		</dict>
 	</dict>
 </dict>
