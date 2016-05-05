@@ -19,6 +19,8 @@
 	<key>Nodes</key>
 	<array>
 		<string>YCTabBarController/MainTabBarConfig.plist</string>
+		<string>YCTabBarController/YCTabBarController.h</string>
+		<string>YCTabBarController/YCTabBarController.m</string>
 	</array>
 	<key>Options</key>
 	<array>
@@ -41,16 +43,19 @@
 						<string>ViewController.m:implementation:methods:viewDidLoad:super</string>
 						<string>ViewController.m:implementation:methods:didReceiveMemoryWarning(- (void\)didReceiveMemoryWarning)</string>
 						<string>ViewController.m:implementation:methods:didReceiveMemoryWarning:super</string>
+						<string>AppDelegate.m:imports:importHeader:YCTabBarController.h</string>
 						<string>AppDelegate.m:implementation:methods:applicationdidFinishLaunchingWithOptions:body</string>
 					</array>
 					<key>Definitions</key>
 					<dict>
 						<key>AppDelegate.m:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
-						<string>    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+						<string>    // Override point for customization after application launch.
+    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     _window.backgroundColor = [UIColor whiteColor];
     YCTabBarController *tabBarController = [YCTabBarController new];
     [_window setRootViewController:tabBarController];
-</string>
+
+    </string>
 					</dict>
 				</dict>
 				<key>Swift</key>
@@ -71,6 +76,26 @@
 	</array>
 	<key>Definitions</key>
 	<dict>
+		<key>YCTabBarController/YCTabBarController.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Sections</string>
+				<string>YCTabBarController</string>
+			</array>
+			<key>Path</key>
+			<string>YCTabBarController/YCTabBarController.h</string>
+		</dict>
+		<key>YCTabBarController/YCTabBarController.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Sections</string>
+				<string>YCTabBarController</string>
+			</array>
+			<key>Path</key>
+			<string>YCTabBarController/YCTabBarController.m</string>
+		</dict>
 		<key>YCTabBarController/MainTabBarConfig.plist</key>
 		<dict>
 			<key>Group</key>
