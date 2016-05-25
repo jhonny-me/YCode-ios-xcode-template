@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YCAPIHelper.h"
 
+NS_ASSUME_NONNULL_BEGIN
 @interface YCBadResponseView : UIButton
 /**
  *  初始化方法
@@ -35,3 +37,16 @@
 - (void)hideBadResponseView;
 
 @end
+
+@class YCAPIRequestStore;
+
+@interface YCAPIHelper(YCBadResponseView)
+
+@property (strong, nonatomic) YCAPIRequestStore *store;
+
+- (void)postWithUrl:(NSString *)url params:(NSDictionary * _Nullable)params callback:(YCAPICompletion)completion showFailureViewAutomatic:(BOOL)automatic;
+
+- (void)restartLastRequestWithAdditionalParams:(NSDictionary *)params;
+
+@end
+NS_ASSUME_NONNULL_END
