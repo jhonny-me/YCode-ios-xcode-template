@@ -9,11 +9,12 @@
 #import "YCAPIHelper.h"
 #import "AFNetworking.h"
 
-NSString *const YCNetworkErr = @"网络错误";
-NSString *const YCUploadURL  = @"<#上传URL#>";
+static NSString *const YCNetworkErr = @"网络错误";
+static NSString *const YCUploadURL  = @"<#上传URL#>";
 
 @implementation YCAPIHelper{
     AFHTTPSessionManager *_manager;
+    
     BOOL _isProcessing;
 }
 
@@ -48,9 +49,9 @@ NSString *const YCUploadURL  = @"<#上传URL#>";
         }
         
         NSDictionary *response = (NSDictionary *)responseObject;
-        NSNumber *statusCode = response[@"status"];
+        NSNumber *statusCode = response[@"code"];
         
-        if (statusCode.intValue == 0) {
+        if (statusCode.intValue == 1) {
             return completion(nil, response[@"msg"]);
         }
         
@@ -123,11 +124,9 @@ NSString *const YCUploadURL  = @"<#上传URL#>";
 
 - (instancetype)init{
     self = [super init];
-    
     if (self) {
         [self setup];
     }
-    
     return self;
 }
 
@@ -136,7 +135,7 @@ NSString *const YCUploadURL  = @"<#上传URL#>";
     
     _manager = [AFHTTPSessionManager manager];
     [_manager.requestSerializer setTimeoutInterval:40.f];
+    _manager.responseSerializer.acceptableContentTypes = [_manager.responseSerializer.acceptableContentTypes setByAddingObjectsFromArray:@[@"text/plain",@"text/html"]];
 }
 
 @end
-
